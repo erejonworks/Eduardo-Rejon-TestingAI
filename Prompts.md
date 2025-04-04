@@ -21,7 +21,7 @@ Para las columnas que no se tenga certeza de su valor, infiere un posible result
 # Requerimientos Funcionales y No Funcionales - Pruebas de Aceptación
 Eres un experto en pruebas de software.
 
-Toma este archivo de requerimientos funcionales y no funcionales de un sistema de registro y aplica todas las pruebas de aceptacion posibles. Si encuentras incongruencias genera una tabla de errores con estas columntas:
+Prueba esta interfaz en contra de este archivo de requerimientos funcionales y no funcionales de un sistema de registro y aplica todas las pruebas de aceptacion posibles. Si encuentras incongruencias genera una tabla de errores con estas columntas:
 
 ID, Descripcion, estado del error, gravedad del error, ambiente de prueba, pasos para reproducirlo.
 
