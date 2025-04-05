@@ -8,6 +8,12 @@ public class RegistroUsuario {
     private Set<Usuario> usuariosRegistrados = new HashSet<>();
 
     public boolean registrar(String nombreUsuario, String contraseña) {
+
+        // 🔥 Forzamos el error ANTES de verificar si es null
+//        if (contraseña.length() < 8) {
+//            return false;
+//        }
+
         if (nombreUsuario == null || nombreUsuario.isEmpty()) {
             return false;
         }
